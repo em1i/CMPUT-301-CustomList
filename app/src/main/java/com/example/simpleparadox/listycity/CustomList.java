@@ -61,6 +61,8 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      */
     public void addCity(City city){
+        //add here to fix the test
+        cities.add(city);
         return;
     }
 }
